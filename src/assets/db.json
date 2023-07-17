@@ -1,0 +1,37 @@
+{
+  "usersDB": [
+    {
+      "userid": "abc@media.com",
+      "password": "abc123",
+      "username": "Tom",
+      "id": 1
+    },
+    {
+      "userid": "def@media.com",
+      "password": "def123",
+      "username": "Dave",
+      "id": 2
+    }
+  ],
+  
+    "galleryImages": [
+      { "url": "../assets/homeImg/image1.jpg", "alt": "Image1"},
+      { "url": "../assets/homeImg/image2.jpg", "alt": "Image2"},
+      { "url": "../assets/homeImg/image3.jpg", "alt": "Image3"},
+      { "url": "../assets/homeImg/image4.jpg", "alt": "Image4"},
+      { "url": "../assets/homeImg/image5.jpg", "alt": "Image5"},
+      { "url": "../assets/homeImg/image6.jpg", "alt": "Image6"},
+      { "url": "../assets/homeImg/image7.jpg", "alt": "Image7"},
+      { "url": "../assets/homeImg/image8.jpg", "alt": "Image8"}
+    ],
+
+    
+    "HomeImages": [
+    { "url": "../assets/galleryImg/image1.jpg", "alt":"photo1" },
+    { "url": "../assets/galleryImg/image2.jpg", "alt": "photo2"},
+    { "url": "../assets/galleryImg/image3.jpg", "alt": "photo3" }
+  
+    ]
+    
+  }
+  

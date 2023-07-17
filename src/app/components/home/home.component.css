@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+
+.row {
+  margin-bottom: 20px;
+}
+
+.col-md-4 {
+  padding: 5px;
+}
+
+textarea {
+  width: 100%;
+}
+
+
+.container #commentsMention {
+  min-height: 100px;
+  border: 1px solid #d7d7d7;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.container .default-size {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+div#commentsMention[placeholder]:empty:before {
+  content: attr(placeholder);
+  color: #555;
+}
+
+.mention-listItems {
+  padding-left: 12px;
+  vertical-align: middle;
+  width: 80%;
+}
+
+#commentsMention_popup .e-dropdownbase .e-list-item {
+  line-height: 25px;
+  text-indent: 8px;
+}
+
+
+
+#commentsMention_popup .e-dropdownbase .e-list-item * {
+  display: block;
+}
+
+/*  animation for images */
+
+.gallery-image {
+  transition: transform 0.3s;
+  
+}
+
+.gallery-image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);}

@@ -1,0 +1,19 @@
+.container {
+  margin-top: 20px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.col-md-3 {
+  padding: 5px;
+}
+
+.gallery-image {
+  transition: transform 0.3s;
+}
+
+.gallery-image:hover {
+  transform: scale(1.25);
+}

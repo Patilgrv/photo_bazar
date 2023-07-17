@@ -1,0 +1,16 @@
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    min-height: 10px;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    /* margin-top: auto;
+    margin-bottom: 10px; */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
